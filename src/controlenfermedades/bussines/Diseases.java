@@ -13,7 +13,7 @@ public class Diseases {
     private String name;
     private String symptom;
     private boolean treatment;
-
+    
     public String getName() {
         return name;
     }
@@ -37,6 +37,17 @@ public class Diseases {
     public void setTreatment(boolean treatment) {
         this.treatment = treatment;
     }
-    
+    public boolean isrequire(){
+        boolean b= true;
+        return b;
+    }
+    public int locate(){
+        int h=0;
+        return h; 
+    }
+
+    public Diseases decide(String Diseasename) {
+       return new Diseases();
+    }
     
 }
